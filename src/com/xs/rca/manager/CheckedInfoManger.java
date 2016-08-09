@@ -47,4 +47,88 @@ public class CheckedInfoManger extends HibernateDaoSupport {
 					}
 				});
 	}
+	
+	
+	public Map getRgjyxmjg(final String jylsh){
+		
+		return this.getHibernateTemplate().execute(new HibernateCallback<Map>() {
+
+			@Override
+			public Map doInHibernate(Session session) throws HibernateException, SQLException {
+				
+				List<?> entitys = session
+						.createSQLQuery("select * from  OutSide_Result_Anjian_Bak  where RegistNo=:jylsh")
+						.setString("jylsh",jylsh)
+						.setFirstResult(0)
+						.setMaxResults(1)
+						.setResultTransformer(
+								Transformers.ALIAS_TO_ENTITY_MAP).list();
+				
+				if(entitys!=null&&!entitys.isEmpty()){
+					return (Map)entitys.get(0);
+				}else{
+					return null;
+				}
+			}
+			
+		});
+	}
+	
+	public Map getYqsbjyjg(final String jylsh){
+		
+		return this.getHibernateTemplate().execute(new HibernateCallback<Map>() {
+
+			@Override
+			public Map doInHibernate(Session session) throws HibernateException, SQLException {
+				
+				List<?> entitys = session
+						.createSQLQuery("select * from  DetReportResult_JS_AnJian  where RegistNo=:jylsh")
+						.setString("jylsh",jylsh)
+						.setFirstResult(0)
+						.setMaxResults(1)
+						.setResultTransformer(
+								Transformers.ALIAS_TO_ENTITY_MAP).list();
+				
+				if(entitys!=null&&!entitys.isEmpty()){
+					return (Map)entitys.get(0);
+				}else{
+					return null;
+				}
+			}
+			
+		});
+	}
+	
+	/**
+	 * 获取结果 标准限值
+	 * 
+	 * 参数 是报告号
+	 * @param jylsh
+	 * @return
+	 */
+	public Map getBzxz(final String jylsh){
+		
+		return this.getHibernateTemplate().execute(new HibernateCallback<Map>() {
+
+			@Override
+			public Map doInHibernate(Session session) throws HibernateException, SQLException {
+				
+				List<?> entitys = session
+						.createSQLQuery("select * from  DetReportYQJC_LimitValue  where DocRegist=:jylsh")
+						.setString("jylsh",jylsh)
+						.setFirstResult(0)
+						.setMaxResults(1)
+						.setResultTransformer(
+								Transformers.ALIAS_TO_ENTITY_MAP).list();
+				
+				if(entitys!=null&&!entitys.isEmpty()){
+					return (Map)entitys.get(0);
+				}else{
+					return null;
+				}
+			}
+			
+		});
+	}
+	
 }

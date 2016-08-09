@@ -38,7 +38,6 @@ public class RCAConstant {
 	
 	public static final String ROAD="路试";
 	
-	
 	 public static final String XTLB = "18";
 	
 	

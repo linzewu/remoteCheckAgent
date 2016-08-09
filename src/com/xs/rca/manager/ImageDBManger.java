@@ -55,7 +55,6 @@ public class ImageDBManger extends HibernateDaoSupport {
 					}
 				});
 		if (zpMap != null) {
-
 			String imageCode = "";
 			Blob imgObj = (Blob) zpMap.get("zp");
 

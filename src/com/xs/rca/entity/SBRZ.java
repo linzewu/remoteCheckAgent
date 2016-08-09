@@ -32,7 +32,7 @@ public class SBRZ  {
 	@Column(name = "message",length=2000)
 	private String message;
 	
-	@Column(name = "xml",length=4000)
+	@Column(name = "xml",length=8000)
 	private String xml;
 	
 	@Column(name = "bo",length=4000)
@@ -52,7 +52,29 @@ public class SBRZ  {
 	@Column(name = "sbsj")
 	private Date sbsj;
 	
+	@Column(name = "hmph")
+	private String hmph;
 	
+	@Column(name = "hpzl")
+	private String hpzl;
+	
+	
+
+	public String getHmph() {
+		return hmph;
+	}
+
+	public String getHpzl() {
+		return hpzl;
+	}
+
+	public void setHmph(String hmph) {
+		this.hmph = hmph;
+	}
+
+	public void setHpzl(String hpzl) {
+		this.hpzl = hpzl;
+	}
 
 	public String getBo() {
 		return bo;

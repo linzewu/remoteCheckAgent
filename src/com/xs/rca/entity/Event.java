@@ -49,8 +49,44 @@ public class Event {
 	private String zpzl;
 	
 	
+	@Column(name = "hphm")
+	private String hphm;
+	
+	@Column(name = "hpzl")
+	private String hpzl;
+	
+	@Column(name = "clsbdh")
+	private String clsbdh;
+	
+	
+	
+	
 
 	
+	public String getHphm() {
+		return hphm;
+	}
+
+	public String getHpzl() {
+		return hpzl;
+	}
+
+	public String getClsbdh() {
+		return clsbdh;
+	}
+
+	public void setHphm(String hphm) {
+		this.hphm = hphm;
+	}
+
+	public void setHpzl(String hpzl) {
+		this.hpzl = hpzl;
+	}
+
+	public void setClsbdh(String clsbdh) {
+		this.clsbdh = clsbdh;
+	}
+
 	public String getZpzl() {
 		return zpzl;
 	}
