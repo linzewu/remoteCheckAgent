@@ -221,7 +221,7 @@ public class CheckedInfoTaskJob {
 				for (Map data : datas) {
 					// 数据转换
 					convertData(viewName, data);
-					
+					 
 					if(viewName.equals(RCAConstant.V18C62)){
 						//人工检验项目结果
 						Map rgmap = this.checkedInfoManger.getRgjyxmjg(e.getLsh());
@@ -823,7 +823,7 @@ public class CheckedInfoTaskJob {
 			if (newValue.length() > 0) {
 				newValue = newValue.substring(1, newValue.length());
 				// 如果是路试
-				if ("路试".equals(map.get("jcxdh"))) {
+				if ("1".equals(map.get("bolRoad"))) {
 					newValue = newValue + ",R1,R2";
 				}
 			}
