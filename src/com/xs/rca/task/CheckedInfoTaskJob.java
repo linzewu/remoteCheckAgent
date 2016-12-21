@@ -708,9 +708,12 @@ public class CheckedInfoTaskJob {
 		}
 		return map;
 	}
+	
+	private String orgJcxdh="";
 
 	private void convertData(String viewName, Map data) {
 		Set<String> set = data.keySet();
+		orgJcxdh = (String)data.get("jcxdh");
 		for (String key : set) {
 			boolean isConvert = SpecialConvert(viewName, key, data);
 			if (isConvert) {
@@ -823,10 +826,12 @@ public class CheckedInfoTaskJob {
 			if (newValue.length() > 0) {
 				newValue = newValue.substring(1, newValue.length());
 				// 如果是路试
-				if ("1".equals(map.get("bolRoad"))) {
+				System.out.println(map.get("jcxdh"));
+				if ("路试".equals(orgJcxdh)) {
 					newValue = newValue + ",R1,R2";
 				}
 			}
+			System.out.println("jyxm:" + newValue);
 			logger.debug("jyxm:" + newValue);
 			map.put(key, newValue);
 		}
