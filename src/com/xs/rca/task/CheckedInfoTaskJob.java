@@ -317,17 +317,12 @@ public class CheckedInfoTaskJob {
 		
 		//取轴制动数据
 		for(int i=1;i<=6;i++){
-			
 			String zdlValue = (String)yqMap.get("B"+i+"13");
-			
 			if(zdlValue==null||"-".equals(zdlValue.trim())||"".equals(zdlValue.trim())){
 				continue;
 			}
-			
 			Map<String,Object> zdlMap=new HashMap<String,Object>();
 			Map<String,Object> bphlMap=new HashMap<String,Object>();
-			
-			
 			String zdl="";
 			String bphl="";
 			
@@ -375,6 +370,64 @@ public class CheckedInfoTaskJob {
 			bphlMap.put("yqjybz", "");
 			yqList.add(bphlMap);
 		}
+		
+		
+		//取加载数据
+		for(int i=1;i<=6;i++){
+			String zdlValue = (String)yqMap.get("BJZ"+i+"13");
+			if(zdlValue==null||"-".equals(zdlValue.trim())||"".equals(zdlValue.trim())){
+				continue;
+			}
+			Map<String,Object> zdlMap=new HashMap<String,Object>();
+			Map<String,Object> bphlMap=new HashMap<String,Object>();
+			String zdl="";
+			String bphl="";
+			
+			switch (i) {
+			case 1:
+				zdl="一轴加载制动率";
+				bphl="一轴加载不平衡率";
+				break;
+			case 2:
+				zdl="二轴加载制动率";
+				bphl="二轴加载不平衡率";
+				break;
+			case 3:
+				zdl="三轴加载制动率";
+				bphl="三轴加载不平衡率";
+				break;
+			case 4:
+				zdl="四轴加载制动率";
+				bphl="四轴加载不平衡率";
+				break;
+			case 5:
+				zdl="五轴加载制动率";
+				bphl="五轴加载不平衡率";
+				break;
+			case 6:
+				zdl="六轴加载制动率";
+				bphl="六轴加载不平衡率";
+				break;
+			}
+			zdlMap.put("xh",index.toString());
+			index++;
+			zdlMap.put("yqjyxm", zdl);
+			zdlMap.put("yqjyjg", zdlValue);
+			zdlMap.put("yqbzxz", xzMap.get("B"+i+"13XZ"));
+			zdlMap.put("yqjgpd", converRes(yqMap.get("BJZ"+i+"33")));
+			zdlMap.put("yqjybz", ""); 
+			yqList.add(zdlMap); 
+ 			 
+			bphlMap.put("xh",index.toString());
+			index++;
+			bphlMap.put("yqjyxm", bphl);
+			bphlMap.put("yqjyjg", yqMap.get("BJZ"+i+"23"));
+			bphlMap.put("yqbzxz", xzMap.get("B"+i+"23XZ"));
+			bphlMap.put("yqjgpd", converRes(yqMap.get("BJZ"+i+"43")));
+			bphlMap.put("yqjybz", ""); 
+			yqList.add(bphlMap); 
+		}
+		
 		
 		//取驻车制动率的
 		String zczdl=(String)yqMap.get("B813");
@@ -494,6 +547,23 @@ public class CheckedInfoTaskJob {
 			chjczMap.put("yqjgpd", converRes(yqMap.get("ARes")));
 			chjczMap.put("yqjybz", "");
 			yqList.add(chjczMap);
+		}
+		
+		//外扩
+		String wkjcz=(String)yqMap.get("WKC");
+		if(wkjcz!=null&&!"".equals(wkjcz.trim())&&!"-".equals(wkjcz.trim())){
+			
+			wkjcz+="*"+(String)yqMap.get("WKK")+"*"+(String)yqMap.get("WKG");
+			
+			Map<String,Object> wkjczMap=new HashMap<String,Object>();
+			wkjczMap.put("xh",index.toString());
+			index++;
+			wkjczMap.put("yqjyxm", "外廓尺寸测量"); 
+			wkjczMap.put("yqjyjg", wkjcz);
+			wkjczMap.put("yqbzxz","±2%或100mm");
+			wkjczMap.put("yqjgpd", converRes(yqMap.get("WKZRes")));
+			wkjczMap.put("yqjybz", "");
+			yqList.add(wkjczMap);
 		}
 		
 		Document d = BeanXMLUtil.list2xml(yqList, "yqsbjyjg");
@@ -749,19 +819,19 @@ public class CheckedInfoTaskJob {
 				isConvert = true;
 				break;
 			case "cwkc":
-				if (value != null && !value.equals("")) {
+				if (value != null && !value.equals("")&&viewName.indexOf("M1")==-1) {
 					map.put(key,value.split("/")[0]);
 					isConvert = true;
 					break;
 				}
 			case "cwkk":
-				if (value != null && !value.equals("")) {
+				if (value != null && !value.equals("")&&viewName.indexOf("M1")==-1) {
 					map.put(key, value.split("/")[1]);
 					isConvert = true;
 					break;
 				}
 			case "cwkg":
-				if (value != null && !value.equals("")) {
+				if (value != null && !value.equals("")&&viewName.indexOf("M1")==-1) {
 					map.put(key, value.split("/")[2]);
 					isConvert = true;
 					break;

@@ -3,157 +3,153 @@
 	<vehispara>
 		<xh></xh>
 		<jybgjy></jybgjy>
-		<hphm>苏J23086</hphm>
+		<hphm>%E8%8B%8FJJ787A</hphm>
+		<__hibernate_row_nr__>1</__hibernate_row_nr__>
 		<jcxdh>1</jcxdh>
-		<jyjl>合格</jyjl>
-		<jycs>3</jycs>
-		<RegistNo>0000688198</RegistNo>
+		<jyjl>%E5%90%88%E6%A0%BC</jyjl>
+		<jycs>1</jycs>
+		<RegistNo>0000713388</RegistNo>
 		<hpzl>02</hpzl>
 		<jybgbz></jybgbz>
-		<jylsh>3209112015001404</jylsh>
-		<pzrxm>张</pzrxm>
+		<jylsh>3209112017006769</jylsh>
+		<pzrxm>%E6%9D%8E%E6%88%90</pzrxm>
 		<rgjyjgs>
 			<rgjyjg>
 				<xh>1</xh>
-				<rgjysm></rgjysm>
-				<rgjyxm>车辆唯一性检查</rgjyxm>
-				<rgjybz></rgjybz>
+				<rgjysm />
+				<rgjyxm>%E8%BD%A6%E8%BE%86%E5%94%AF%E4%B8%80%E6%80%A7%E6%A3%80%E6%9F%A5
+				</rgjyxm>
+				<rgjybz />
 				<rgjgpd>1</rgjgpd>
 			</rgjyjg>
 			<rgjyjg>
 				<xh>2</xh>
-				<rgjysm></rgjysm>
-				<rgjyxm>车辆特征参数检查</rgjyxm>
-				<rgjybz></rgjybz>
+				<rgjysm />
+				<rgjyxm>%E8%BD%A6%E8%BE%86%E7%89%B9%E5%BE%81%E5%8F%82%E6%95%B0%E6%A3%80%E6%9F%A5
+				</rgjyxm>
+				<rgjybz />
 				<rgjgpd>1</rgjgpd>
 			</rgjyjg>
 			<rgjyjg>
 				<xh>3</xh>
-				<rgjysm></rgjysm>
-				<rgjyxm>车辆外观检查</rgjyxm>
-				<rgjybz></rgjybz>
+				<rgjysm />
+				<rgjyxm>%E8%BD%A6%E8%BE%86%E5%A4%96%E8%A7%82%E6%A3%80%E6%9F%A5
+				</rgjyxm>
+				<rgjybz />
 				<rgjgpd>1</rgjgpd>
 			</rgjyjg>
 			<rgjyjg>
 				<xh>4</xh>
-				<rgjysm></rgjysm>
-				<rgjyxm>安全装置检查</rgjyxm>
-				<rgjybz></rgjybz>
+				<rgjysm />
+				<rgjyxm>%E5%AE%89%E5%85%A8%E8%A3%85%E7%BD%AE%E6%A3%80%E6%9F%A5
+				</rgjyxm>
+				<rgjybz />
 				<rgjgpd>1</rgjgpd>
 			</rgjyjg>
 			<rgjyjg>
 				<xh>5</xh>
-				<rgjysm></rgjysm>
-				<rgjyxm>联网查询</rgjyxm>
-				<rgjybz></rgjybz>
+				<rgjysm />
+				<rgjyxm>%E8%81%94%E7%BD%91%E6%9F%A5%E8%AF%A2</rgjyxm>
+				<rgjybz />
 				<rgjgpd>1</rgjgpd>
 			</rgjyjg>
 			<rgjyjg>
 				<xh>6</xh>
-				<rgjysm></rgjysm>
-				<rgjyxm>底盘动态检验</rgjyxm>
-				<rgjybz></rgjybz>
+				<rgjysm />
+				<rgjyxm>%E5%BA%95%E7%9B%98%E5%8A%A8%E6%80%81%E6%A3%80%E9%AA%8C
+				</rgjyxm>
+				<rgjybz />
 				<rgjgpd>1</rgjgpd>
 			</rgjyjg>
 			<rgjyjg>
 				<xh>7</xh>
-				<rgjysm></rgjysm>
-				<rgjyxm>车辆底盘部件检查</rgjyxm>
-				<rgjybz></rgjybz>
+				<rgjysm />
+				<rgjyxm>%E8%BD%A6%E8%BE%86%E5%BA%95%E7%9B%98%E9%83%A8%E4%BB%B6%E6%A3%80%E6%9F%A5
+				</rgjyxm>
+				<rgjybz />
 				<rgjgpd>1</rgjgpd>
 			</rgjyjg>
 		</rgjyjgs>
 		<yqsbjyjgs>
 			<yqsbjyjg>
 				<xh>1</xh>
-				<yqjyjg>76.1</yqjyjg>
-				<yqbzxz>≥60</yqbzxz>
-				<yqjybz></yqjybz>
-				<yqjyxm>一轴制动率</yqjyxm>
+				<yqjyjg>80.7</yqjyjg>
+				<yqbzxz>%E2%89%A560</yqbzxz>
+				<yqjybz />
+				<yqjyxm>%E4%B8%80%E8%BD%B4%E5%88%B6%E5%8A%A8%E7%8E%87</yqjyxm>
 				<yqjgpd>1</yqjgpd>
 			</yqsbjyjg>
 			<yqsbjyjg>
 				<xh>2</xh>
-				<yqjyjg>20.5</yqjyjg>
-				<yqbzxz>≤24</yqbzxz>
-				<yqjybz></yqjybz>
-				<yqjyxm>一轴不平衡率</yqjyxm>
+				<yqjyjg>6.1</yqjyjg>
+				<yqbzxz>%E2%89%A424</yqbzxz>
+				<yqjybz />
+				<yqjyxm>%E4%B8%80%E8%BD%B4%E4%B8%8D%E5%B9%B3%E8%A1%A1%E7%8E%87
+				</yqjyxm>
 				<yqjgpd>1</yqjgpd>
 			</yqsbjyjg>
 			<yqsbjyjg>
 				<xh>3</xh>
-				<yqjyjg>84.4</yqjyjg>
-				<yqbzxz>≥20</yqbzxz>
-				<yqjybz></yqjybz>
-				<yqjyxm>二轴制动率</yqjyxm>
+				<yqjyjg>58</yqjyjg>
+				<yqbzxz>%E2%89%A520</yqbzxz>
+				<yqjybz />
+				<yqjyxm>%E4%BA%8C%E8%BD%B4%E5%88%B6%E5%8A%A8%E7%8E%87</yqjyxm>
 				<yqjgpd>1</yqjgpd>
 			</yqsbjyjg>
 			<yqsbjyjg>
 				<xh>4</xh>
-				<yqjyjg>14.9</yqjyjg>
-				<yqbzxz>≤30</yqbzxz>
-				<yqjybz></yqjybz>
-				<yqjyxm>二轴不平衡率</yqjyxm>
+				<yqjyjg>2.3</yqjyjg>
+				<yqbzxz>%E2%89%A410</yqbzxz>
+				<yqjybz />
+				<yqjyxm>%E4%BA%8C%E8%BD%B4%E4%B8%8D%E5%B9%B3%E8%A1%A1%E7%8E%87
+				</yqjyxm>
 				<yqjgpd>1</yqjgpd>
 			</yqsbjyjg>
 			<yqsbjyjg>
 				<xh>5</xh>
-				<yqjyjg>22.8</yqjyjg>
-				<yqbzxz>≥20</yqbzxz>
-				<yqjybz></yqjybz>
-				<yqjyxm>驻车制动率</yqjyxm>
+				<yqjyjg>24.3</yqjyjg>
+				<yqbzxz>%E2%89%A520</yqbzxz>
+				<yqjybz />
+				<yqjyxm>%E9%A9%BB%E8%BD%A6%E5%88%B6%E5%8A%A8%E7%8E%87</yqjyxm>
 				<yqjgpd>1</yqjgpd>
 			</yqsbjyjg>
 			<yqsbjyjg>
 				<xh>6</xh>
-				<yqjyjg>80.2</yqjyjg>
-				<yqbzxz>≥60</yqbzxz>
-				<yqjybz></yqjybz>
-				<yqjyxm>整车制动率</yqjyxm>
+				<yqjyjg>71.8</yqjyjg>
+				<yqbzxz>%E2%89%A560</yqbzxz>
+				<yqjybz />
+				<yqjyxm>%E6%95%B4%E8%BD%A6%E5%88%B6%E5%8A%A8%E7%8E%87</yqjyxm>
 				<yqjgpd>1</yqjgpd>
 			</yqsbjyjg>
 			<yqsbjyjg>
 				<xh>7</xh>
-				<yqjyjg>32400</yqjyjg>
-				<yqbzxz>≥15000</yqbzxz>
-				<yqjybz></yqjybz>
-				<yqjyxm>左外灯远光光强</yqjyxm>
+				<yqjyjg>16400</yqjyjg>
+				<yqbzxz>%E2%89%A515000</yqbzxz>
+				<yqjybz />
+				<yqjyxm>%E5%B7%A6%E5%A4%96%E7%81%AF%E8%BF%9C%E5%85%89%E5%85%89%E5%BC%BA
+				</yqjyxm>
 				<yqjgpd>1</yqjgpd>
 			</yqsbjyjg>
 			<yqsbjyjg>
 				<xh>8</xh>
-				<yqjyjg>0.95</yqjyjg>
-				<yqbzxz>-</yqbzxz>
-				<yqjybz></yqjybz>
-				<yqjyxm>左外灯远光垂直偏移H</yqjyxm>
-				<yqjgpd>0</yqjgpd>
-			</yqsbjyjg>
-			<yqsbjyjg>
-				<xh>9</xh>
-				<yqjyjg>33300</yqjyjg>
-				<yqbzxz>≥15000</yqbzxz>
-				<yqjybz></yqjybz>
-				<yqjyxm>右外灯远光光强</yqjyxm>
+				<yqjyjg>19400</yqjyjg>
+				<yqbzxz>%E2%89%A515000</yqbzxz>
+				<yqjybz />
+				<yqjyxm>%E5%8F%B3%E5%A4%96%E7%81%AF%E8%BF%9C%E5%85%89%E5%85%89%E5%BC%BA
+				</yqjyxm>
 				<yqjgpd>1</yqjgpd>
 			</yqsbjyjg>
 			<yqsbjyjg>
-				<xh>10</xh>
-				<yqjyjg>0.92</yqjyjg>
-				<yqbzxz>-</yqbzxz>
-				<yqjybz></yqjybz>
-				<yqjyxm>右外灯远光垂直偏移H</yqjyxm>
-				<yqjgpd>0</yqjgpd>
-			</yqsbjyjg>
-			<yqsbjyjg>
-				<xh>11</xh>
-				<yqjyjg>1.5</yqjyjg>
-				<yqbzxz>-5~5</yqbzxz>
-				<yqjybz></yqjybz>
-				<yqjyxm>侧滑检测值</yqjyxm>
-				<yqjgpd>0</yqjgpd>
+				<xh>9</xh>
+				<yqjyjg>null*null*null</yqjyjg>
+				<yqbzxz>%C2%B12%25%E6%88%96100mm</yqbzxz>
+				<yqjybz />
+				<yqjyxm>%E5%A4%96%E5%BB%93%E5%B0%BA%E5%AF%B8%E6%B5%8B%E9%87%8F
+				</yqjyxm>
+				<yqjgpd />
 			</yqsbjyjg>
 		</yqsbjyjgs>
-		<jyjgbh>3209000013</jyjgbh>
-		<clsbdh>LVAV2MWB2CC021491</clsbdh>
+		<jyjgbh>3209000012</jyjgbh>
+		<clsbdh>LSVFA49J452002739</clsbdh>
 	</vehispara>
 </root>
