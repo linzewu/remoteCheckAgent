@@ -879,7 +879,7 @@ public class CheckedInfoTaskJob {
 		data.put("hpzl", event.getHpzl());
 		data.put("clsbdh", event.getClsbdh());
 		data.put("jyjgbh", jyjgbh);
-		
+		data.put("jylb", event.getJylb());
 		
 		Document xml = BeanXMLUtil.map2xml(data, "QueryCondition");
 		qoo.setUTF8XmlDoc(xml.asXML());

@@ -58,11 +58,21 @@ public class Event {
 	@Column(name = "clsbdh")
 	private String clsbdh;
 	
+	@Column(name = "jylb")
+	private String jylb;
 	
 	
 	
 
 	
+	public String getJylb() {
+		return jylb;
+	}
+
+	public void setJylb(String jylb) {
+		this.jylb = jylb;
+	}
+
 	public String getHphm() {
 		return hphm;
 	}
